@@ -25,7 +25,7 @@ struct github_profileApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GitHubUserView(username: "user-matth")
         }
         .modelContainer(sharedModelContainer)
     }
